@@ -6,7 +6,7 @@ import (
 	"time"
 
 	bot "../sweetiebot"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // MiscModule contains miscellaneous commands

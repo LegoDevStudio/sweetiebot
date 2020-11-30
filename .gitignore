@@ -8,3 +8,4 @@
 *.exe
 /.vs/
 /.vscode/
+selfhost.json

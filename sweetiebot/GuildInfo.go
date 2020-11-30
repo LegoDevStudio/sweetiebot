@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"4d63.com/tz"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // GuildInfo Stores state information about a guild

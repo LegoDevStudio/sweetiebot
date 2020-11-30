@@ -9,7 +9,7 @@ import (
 
 	"../spammodule"
 	bot "../sweetiebot"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // FilterModule implements word filters that allow you to look for spoilers or profanity uses regex matching.

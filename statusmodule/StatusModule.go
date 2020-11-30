@@ -4,7 +4,7 @@ import (
 	"time"
 
 	bot "../sweetiebot"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // StatusModule manages the status message

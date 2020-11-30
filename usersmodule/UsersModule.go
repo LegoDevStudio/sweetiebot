@@ -9,7 +9,7 @@ import (
 
 	bot "../sweetiebot"
 	"4d63.com/tz"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // UsersModule contains commands for getting and setting user information

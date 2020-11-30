@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
 )
 

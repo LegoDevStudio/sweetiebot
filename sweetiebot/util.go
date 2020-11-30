@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 // ErrRoleNoMatch is thrown when a role name doesn't exist on the server

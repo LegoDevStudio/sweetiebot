@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	bot "../sweetiebot"
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 type searchCommand struct {
