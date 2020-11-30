@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/erikmcclure/discordgo"
+	"github.com/bwmarrin/discordgo"
 )
 
 var errNotChannel = errors.New("string is not a valid channel")
