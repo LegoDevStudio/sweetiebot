@@ -7,6 +7,7 @@ RUN go get github.com/erikmcclure/discordgo
 RUN cd src/github.com/erikmcclure/discordgo/;git checkout develop
 RUN go get github.com/go-sql-driver/mysql
 RUN go get "4d63.com/tz"
+RUN go get "golang.org/x/net/idna"
 RUN go build -a -installsuffix cgo -o sweetie.out ./sweetie
 RUN go build -a -installsuffix cgo -o updater.out ./updater
 
