@@ -15,11 +15,11 @@ RUN apk add --no-cache ca-certificates
 COPY --from=builder /go/sweetie.out /sweetie
 COPY --from=builder /go/updater.out /updater
 ADD selfhost.json /
-ADD sweetiebot.sql /
-ADD sweetiebot_tz.sql /
-ADD web.css /
-ADD web.html /
+ADD docs/sweetiebot.sql /
+ADD docs/sweetiebot_tz.sql /
+ADD docs/web.css /
+ADD docs/web.html /
 ADD docker_run.sh /
-EXPOSE 80
-EXPOSE 443
+EXPOSE 3010
+EXPOSE 3011
 CMD ["./docker_run.sh"]
