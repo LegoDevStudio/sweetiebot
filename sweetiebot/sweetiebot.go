@@ -196,7 +196,7 @@ func (sb *SweetieBot) AttachToGuild(g *discordgo.Guild) {
 	config, err := ioutil.ReadFile(g.ID + ".json")
 	disableall := false
 	if err != nil {
-		fmt.Println("New Guild Detected: " + g.Name)
+		/*fmt.Println("New Guild Detected: " + g.Name)
 
 		perms, _ := guild.Bot.DG.UserPermissions(sb.SelfID, guild.ID)
 		warning := ""
@@ -244,7 +244,7 @@ func (sb *SweetieBot) AttachToGuild(g *discordgo.Guild) {
 			}
 		}
 
-		disableall = true
+		disableall = true*/
 	} else if err := guild.MigrateSettings(config); err != nil {
 		fmt.Println("Error reading config file for "+g.Name+": ", err.Error())
 	}
