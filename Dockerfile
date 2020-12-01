@@ -20,6 +20,7 @@ ADD docs/sweetiebot_tz.sql /
 ADD docs/web.css /
 ADD docs/web.html /
 ADD docker_run.sh /
+RUN ["chmod", "+x", "/docker_run.sh"]
 EXPOSE 3010
 EXPOSE 3011
 CMD ["./docker_run.sh"]
