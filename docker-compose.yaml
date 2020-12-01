@@ -13,7 +13,7 @@ services:
         context: .
         dockerfile: Dockerfile.mariadb
     expose:
-     - "3309"
+     - "3306"
     restart: always
     environment:
      - MYSQL_ROOT_PASSWORD=dfohggioerhuoerhmgiodhgmi
